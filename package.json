@@ -1,6 +1,6 @@
 {
   "name": "Anita_V3",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Queen Anita V3 Is a Simple WA Bot Using Library Baileys",
   "main": "index.js",
   "type": "commonjs",
@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@^6.7.9",
+      "baileys-mod": "latest",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
@@ -80,6 +81,6 @@
     "youtubedl-core": "^4.11.7"
   },
   "engines": {
-    "node": "22.x"
+    "node": "23.x"
   }
 }
